@@ -1,0 +1,93 @@
+ * {
+     margin: 0;
+     padding: 0;
+     outline: none;
+ }
+.form-container{    
+     display: flex;
+     align-items: center;
+  justify-content: space-around;
+                    
+}
+ .form {
+     background-color:whitesmoke;
+     padding: 15px;
+     border-radius: 8px;
+     display: inline-block;
+/*   
+     top: 50%;
+     left: 5%;
+     transform: translateY(-50%); */
+ }
+
+ .radioinput {
+     margin-left: 3px;
+ }
+
+ .forminp {
+     padding: 10px;
+     width: 300px;
+     border-radius: 8px;
+     margin-top: 10px;
+     outline: none;
+     border: none;
+
+ }
+
+ .sub-btn , .remove-btn {
+     width: 100%;
+     text-align: center;
+     display: block;
+     padding:10px ;
+     margin: auto;
+     border-radius: 6px;
+     outline: none;
+     border: none;
+     cursor: pointer;
+
+ }
+ .sub-btn{
+ background-color: rgb(185, 224, 147);
+ }
+ .sub-btn:hover{
+    background-color: rgb(159, 212, 105);
+    transition: 0.ms;
+ }
+ .remove-btn{
+    background-color:  rgb(237, 160, 160);
+ }
+ .remove-btn:hover{
+    background-color: rgb(228, 99, 99);
+ }
+ textarea {
+     border-radius: 8px;
+     margin-top: 8px;
+     font-size: 16px;
+
+
+ }
+
+ .view-container {
+     background-color: rgb(201, 241, 241);
+     border-radius: 8px;
+     padding: 12px;
+     display: inline-block;
+
+ }
+.table-responsive{
+
+}
+ .table-responsive th {
+     padding: 2px 5px;
+ }
+
+ .table-responsive td {
+     padding: 2px 5px;
+     font-weight: 700;
+     font-size: 17px;
+ }
+
+ /* td {
+     text-align: center;
+     border-radius: 7px;
+ } */
